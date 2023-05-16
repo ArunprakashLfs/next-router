@@ -1,4 +1,5 @@
 import React from 'react'
+import Feed from '@/components/Feed'
 
 const Home = () => {
   return (
@@ -10,6 +11,7 @@ const Home = () => {
       <p className='desc text-center'>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum blanditiis ducimus dolorem?
       </p>
+      <Feed/>
     </section>
   )
 }
